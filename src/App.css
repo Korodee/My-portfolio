@@ -643,4 +643,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .footer .logo {
     padding-bottom: 20px;
   }
+  .project-texts{
+    min-width: 90%;
+  }
 }

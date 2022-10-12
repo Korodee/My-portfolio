@@ -77,7 +77,7 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
-                  <p>
+                  <p className="project-texts">
                     Coded using HTML, CSS, SASS, Bootstrap, React and JavaScript
                     to develop features for both mobile and desktop platforms.
                     Also Produced websites compatible with multiple browsers.
