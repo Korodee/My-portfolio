@@ -7,6 +7,7 @@ import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
+import projImg8 from "../assets/img/project-img8.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -14,46 +15,52 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Meeps",
+      description:
+        "MEEPS is a 5,555 NFTs collection built using an ERC 721A contract.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Feellings",
+      description:
+        "Feellings is a Dapp that allows you to create and own NFTs.",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Gods of Egypt",
+      description:
+        "The Gods of Egypt is the first ever NFT treasure hunt that puts you in the arena.",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Meta-Land Society",
+      description:
+        "Creating a blue-chip metaverse ecosystem powered by an asset backed token.",
       imgUrl: projImg4,
     },
   ];
   const projects2 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Kite-Fighters",
+      description:
+        "A crossover VR x NFT gaming experience featuring one of the world's most exciting & obscure sports. KITE FIGHTING",
       imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "NATSUKI",
+      description: "Utilizing the NFT space to provide real world utility!",
       imgUrl: projImg6,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Teenage Innovators",
+      description:
+        "4444 Teen Entrepreneurs proving that they have earned their spot in the business world | Created by 15yo",
       imgUrl: projImg7,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg4,
+      title: "Kite-Fighters / Mint",
+      description: "Mint platform for kite-fighters",
+      imgUrl: projImg8,
     },
   ];
 
@@ -71,11 +78,12 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Coded using HTML, CSS, SASS, Bootstrap, React and JavaScript
+                    to develop features for both mobile and desktop platforms.
+                    Also Produced websites compatible with multiple browsers.
+                    <br></br>
+                    Designed and updated layouts to meet usability and
+                    performance requirements.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -107,20 +115,11 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                      <Row>
+                        <Row>
                           {projects2.map((project2, index) => {
                             return <ProjectCard key={index} {...project2} />;
                           })}
                         </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>

@@ -32,9 +32,11 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
+                Writing well designed, testable, efficient code by using best
+                software development practices. <br></br>Creating website
+                layout/user interfaces by using standard HTML/CSS practices.
+                <br></br> Integrating data from various back-end services and
+                databases.
               </p>
               <Carousel
                 responsive={responsive}
