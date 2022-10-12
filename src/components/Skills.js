@@ -48,11 +48,15 @@ export const Skills = () => {
                   <h5>HTML/CSS/SASS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>BOOTSTRAP/WORDPRESS</h5>
+                  <img src={meter3} alt="Image" />
+                  <h5>WORDPRESS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
+                  <img src={meter2} alt="Image" />
+                  <h5>BOOTSTRAP</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
                   <h5>JAVASCRIPT</h5>
                 </div>
                 <div className="item">
