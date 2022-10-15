@@ -10,7 +10,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [setIndex] = useState(1);
+  // const [index, setIndex] = useState(1);
   const toRotate = ["Front-End Developer", "Web Designer"];
   const period = 2000;
 
@@ -22,7 +22,7 @@ export const Banner = () => {
     return () => {
       clearInterval(ticker);
     };
-  }, [text, delta, tick]);
+  });
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -39,15 +39,15 @@ export const Banner = () => {
 
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
-      setIndex((prevIndex) => prevIndex - 1);
+      // setIndex((prevIndex) => prevIndex - 1);
       setDelta(period);
     } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      setIndex(1);
+      // setIndex(1);
       setDelta(500);
     } else {
-      setIndex((prevIndex) => prevIndex + 1);
+      // setIndex((prevIndex) => prevIndex + 1);
     }
   };
 
