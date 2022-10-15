@@ -8,6 +8,9 @@ import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
 import projImg8 from "../assets/img/project-img8.png";
+import projImg9 from "../assets/img/project-img9.png";
+import projImg10 from "../assets/img/project-img10.png";
+import projImg11 from "../assets/img/project-img11.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -56,6 +59,30 @@ export const Projects = () => {
       description:
         "4444 Teen Entrepreneurs proving that they have earned their spot in the business world | Created by 15yo",
       imgUrl: projImg7,
+    },
+    {
+      title: "Kite-Fighters / Mint",
+      description: "Mint platform for kite-fighters",
+      imgUrl: projImg8,
+    },
+  ];
+  const projects3 = [
+    {
+      title: "Kite-Fighters",
+      description:
+        "A crossover VR x NFT gaming experience featuring one of the world's most exciting & obscure sports. KITE FIGHTING",
+      imgUrl: projImg9,
+    },
+    {
+      title: "NATSUKI",
+      description: "Utilizing the NFT space to provide real world utility!",
+      imgUrl: projImg10,
+    },
+    {
+      title: "Teenage Innovators",
+      description:
+        "4444 Teen Entrepreneurs proving that they have earned their spot in the business world | Created by 15yo",
+      imgUrl: projImg11,
     },
     {
       title: "Kite-Fighters / Mint",
@@ -118,6 +145,13 @@ export const Projects = () => {
                         <Row>
                           {projects2.map((project2, index) => {
                             return <ProjectCard key={index} {...project2} />;
+                          })}
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="third">
+                        <Row>
+                          {projects3.map((project3, index) => {
+                            return <ProjectCard key={index} {...project3} />;
                           })}
                         </Row>
                       </Tab.Pane>
