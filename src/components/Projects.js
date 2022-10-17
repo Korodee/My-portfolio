@@ -68,26 +68,21 @@ export const Projects = () => {
   ];
   const projects3 = [
     {
-      title: "Kite-Fighters",
+      title: "Claim-surrender-game",
       description:
-        "A crossover VR x NFT gaming experience featuring one of the world's most exciting & obscure sports. KITE FIGHTING",
+        "Utilizing the NFT space to provide real world utility!",
       imgUrl: projImg9,
     },
     {
-      title: "NATSUKI",
+      title: "Delivery Dudes",
       description: "Utilizing the NFT space to provide real world utility!",
       imgUrl: projImg10,
     },
     {
-      title: "Teenage Innovators",
+      title: "Clock",
       description:
-        "4444 Teen Entrepreneurs proving that they have earned their spot in the business world | Created by 15yo",
+        "Built With react javascript",
       imgUrl: projImg11,
-    },
-    {
-      title: "Kite-Fighters / Mint",
-      description: "Mint platform for kite-fighters",
-      imgUrl: projImg8,
     },
   ];
 
