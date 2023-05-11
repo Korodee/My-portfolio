@@ -11,12 +11,18 @@ import projImg8 from "../assets/img/project-img8.png";
 import projImg9 from "../assets/img/project-img9.png";
 import projImg10 from "../assets/img/project-img10.png";
 import projImg11 from "../assets/img/project-img11.png";
+import projImg12 from "../assets/img/project-img12.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Househaeds",
+      description: "The first interdimensional digital collectibles coming from the parallel world of Aeterna.",
+      imgUrl: projImg12,
+    },
     {
       title: "Meeps",
       description:
@@ -34,12 +40,6 @@ export const Projects = () => {
       description:
         "The Gods of Egypt is the first ever NFT treasure hunt that puts you in the arena.",
       imgUrl: projImg3,
-    },
-    {
-      title: "Meta-Land Society",
-      description:
-        "Creating a blue-chip metaverse ecosystem powered by an asset backed token.",
-      imgUrl: projImg4,
     },
   ];
   const projects2 = [
@@ -67,6 +67,12 @@ export const Projects = () => {
     },
   ];
   const projects3 = [
+    {
+      title: "Meta-Land Society",
+      description:
+        "Creating a blue-chip metaverse ecosystem powered by an asset backed token.",
+      imgUrl: projImg4,
+    },
     {
       title: "Claim-surrender-game",
       description: "Utilizing the NFT space to provide real world utility!",
