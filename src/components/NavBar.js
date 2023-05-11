@@ -76,7 +76,10 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/korode-ogunfowote-56680b220/">
                   <img src={navIcon1} alt="" />
                 </a>
-                <a href="https://web.facebook.com/ogunfowotekorode.israel" style={{ color: "white"}}>
+                <a
+                  href="https://web.facebook.com/ogunfowotekorode.israel"
+                  style={{ color: "white" }}
+                >
                   <img src={navIcon2} alt="" />
                 </a>
                 <a href="https://www.instagram.com/kaysaxk/">

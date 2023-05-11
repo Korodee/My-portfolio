@@ -32,11 +32,14 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Writing well designed, testable, efficient code by using best
-                software development practices. <br></br>Creating website
-                layout/user interfaces by using standard HTML/CSS practices.
-                <br></br> Integrating data from various back-end services and
-                databases.
+                "I am a professional frontend developer with expertise in
+                HTML/CSS, JavaScript, and various frameworks such as React and
+                Angular. <br></br>I specialize in creating responsive and
+                accessible interfaces that perform well across all devices.
+                <br></br> With my strong attention to detail and collaborative
+                mindset, I bring creativity and innovation to every project I
+                work on. I am committed to delivering exceptional frontend
+                development services that meet and exceed your expectations."
               </p>
               <Carousel
                 responsive={responsive}
@@ -45,30 +48,34 @@ export const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="meter1" />
-                  <h5>HTML/CSS/SASS</h5>
+                  <h5>HTML/CSS</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="meter2" />
-                  <h5>WORDPRESS</h5>
+                  <h5>JavaScript/TypeScript</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="meter3" />
-                  <h5>BOOTSTRAP</h5>
+                  <h5>React/Angular/Vue.js</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="meter4" />
-                  <h5>JAVASCRIPT</h5>
+                  <h5>jQuery/Bootstrap</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="meter5" />
-                  <h5>REACT/GIT</h5>
+                  <h5>SASS/SCSS/LESS</h5>
                 </div>
               </Carousel>
             </div>
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="background" />
+      <img
+        className="background-image-left"
+        src={colorSharp}
+        alt="background"
+      />
     </section>
   );
 };

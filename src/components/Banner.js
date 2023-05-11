@@ -75,13 +75,19 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Experienced working with teams to produce impactful,
-                    leading-edge websites that engage customers and deliver
-                    business results. Well-versed in design standards and user
-                    preferences.
+                    I'm a front-end developer with 5+ years of experience in
+                    HTML, CSS, and JavaScript. I'm skilled in React, Vue, and
+                    object-oriented programming, and can create visually
+                    stunning websites and complex web apps. I work
+                    collaboratively with designers and producers, and i'm
+                    passionate about staying up-to-date with the latest web
+                    development trends.
                   </p>
                   <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
+                    Let’s Connect{" "}
+                    <a href="https://www.linkedin.com/in/korode-ogunfowote-56680b220/">
+                      <ArrowRightCircle size={25} />
+                    </a>
                   </button>
                 </div>
               )}

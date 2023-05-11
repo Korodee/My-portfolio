@@ -69,8 +69,7 @@ export const Projects = () => {
   const projects3 = [
     {
       title: "Claim-surrender-game",
-      description:
-        "Utilizing the NFT space to provide real world utility!",
+      description: "Utilizing the NFT space to provide real world utility!",
       imgUrl: projImg9,
     },
     {
@@ -80,8 +79,7 @@ export const Projects = () => {
     },
     {
       title: "Clock",
-      description:
-        "Built With react javascript",
+      description: "Built With react javascript",
       imgUrl: projImg11,
     },
   ];
@@ -100,12 +98,14 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p className="project-texts">
-                    Coded using HTML, CSS, SASS, Bootstrap, React and JavaScript
-                    to develop features for both mobile and desktop platforms.
-                    Also Produced websites compatible with multiple browsers.
-                    <br></br>
-                    Designed and updated layouts to meet usability and
-                    performance requirements.
+                    "I've successfully completed a diverse range of projects as
+                    a professional frontend developer. Notably, I created a
+                    React-based workout application with an intuitive interface
+                    and integrated backend API, as well as an Angular-based
+                    e-commerce website that was responsive and easy to navigate.
+                    <br></br>I'm also experienced with smaller projects such as
+                    landing pages and marketing websites. My code is always
+                    clean, efficient, and maintainable."
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
