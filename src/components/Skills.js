@@ -32,13 +32,15 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                With an acute attention to detail and a collaborative mindset, I
-                specialize in crafting responsive and accessible interfaces that
-                excel across all devices. By infusing each project with
-                creativity and innovation, I am dedicated to surpassing
-                expectations in every frontend development endeavor. My mission
-                is to deliver exceptional services that enhance digital
-                experiences and consistently exceed your project goals.
+                With an acute attention to detail and a collaborative mindset,
+                <br></br> I specialize in crafting responsive and accessible
+                interfaces that excel across all devices. <br></br>By infusing
+                each project with creativity and innovation,<br></br> I am
+                dedicated to surpassing expectations in every frontend
+                development endeavor.
+                <br></br> My mission is to deliver exceptional services that
+                enhance digital experiences <br></br>and consistently exceed
+                your project goals.
               </p>
               <Carousel
                 responsive={responsive}
