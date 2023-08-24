@@ -32,14 +32,13 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                "I am a professional frontend developer with expertise in
-                HTML/CSS, JavaScript, and various frameworks such as React and
-                Angular. <br></br>I specialize in creating responsive and
-                accessible interfaces that perform well across all devices.
-                <br></br> With my strong attention to detail and collaborative
-                mindset, I bring creativity and innovation to every project I
-                work on. I am committed to delivering exceptional frontend
-                development services that meet and exceed your expectations."
+                With an acute attention to detail and a collaborative mindset, I
+                specialize in crafting responsive and accessible interfaces that
+                excel across all devices. By infusing each project with
+                creativity and innovation, I am dedicated to surpassing
+                expectations in every frontend development endeavor. My mission
+                is to deliver exceptional services that enhance digital
+                experiences and consistently exceed your project goals.
               </p>
               <Carousel
                 responsive={responsive}

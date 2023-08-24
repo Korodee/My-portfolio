@@ -75,13 +75,16 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I'm a front-end developer with 5+ years of experience in
-                    HTML, CSS, and JavaScript. I'm skilled in React, Vue, and
-                    object-oriented programming, and can create visually
-                    stunning websites and complex web apps. I work
-                    collaboratively with designers and producers, and i'm
-                    passionate about staying up-to-date with the latest web
-                    development trends.
+                    I'm a seasoned front-end developer with over 4 years of
+                    hands-on experience crafting exceptional web experiences
+                    using HTML, CSS, and JavaScript. Proficient in React, Vue,
+                    and object-oriented programming, I specialize in bringing
+                    visually captivating websites and intricate web applications
+                    to life. My collaborative approach seamlessly integrates
+                    with design teams and producers, ensuring a cohesive and
+                    innovative end product. I thrive on my commitment to keeping
+                    pace with the forefront of web development trends, cementing
+                    my passion for delivering cutting-edge digital solutions.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect{" "}

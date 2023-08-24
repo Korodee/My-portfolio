@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+// import navIcon2 from "../assets/img/nav-icon2.svg";
+// import navIcon3 from "../assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -76,7 +76,7 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/korode-ogunfowote-56680b220/">
                   <img src={navIcon1} alt="" />
                 </a>
-                <a
+                {/* <a
                   href="https://web.facebook.com/ogunfowotekorode.israel"
                   style={{ color: "white" }}
                 >
@@ -84,7 +84,7 @@ export const NavBar = () => {
                 </a>
                 <a href="https://www.instagram.com/kaysaxk/">
                   <img src={navIcon3} alt="" />
-                </a>
+                </a> */}
               </div>
               <HashLink to="#connect">
                 <button className="vvd">
