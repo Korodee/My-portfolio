@@ -20,7 +20,8 @@ export const Projects = () => {
   const projects = [
     {
       title: "Househaeds",
-      description: "The first interdimensional digital collectibles coming from the parallel world of Aeterna.",
+      description:
+        "The first interdimensional digital collectibles coming from the parallel world of Aeterna.",
       imgUrl: projImg12,
     },
     {
@@ -84,8 +85,9 @@ export const Projects = () => {
       imgUrl: projImg10,
     },
     {
-      title: "Clock",
-      description: "Built With react javascript",
+      title: "Bitcoin (BTC) Price Index Page",
+      description:
+        " A dynamic page displaying real-time BTC price indexes in USD, GBP, and EUR currencies. Plus an engaging page that showcases NFTs owned by connected user's wallet",
       imgUrl: projImg11,
     },
   ];
