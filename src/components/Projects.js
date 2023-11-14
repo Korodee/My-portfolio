@@ -17,160 +17,201 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
-  const projects = [
-    {
-      title: "Househaeds",
-      description:
-        "The first interdimensional digital collectibles coming from the parallel world of Aeterna.",
-      imgUrl: projImg12,
-    },
-    {
-      title: "Meeps",
-      description:
-        "MEEPS is a 5,555 NFTs collection built using an ERC 721A contract.",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Feellings",
-      description:
-        "Feellings is a Dapp that allows you to create and own NFTs.",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Gods of Egypt",
-      description:
-        "The Gods of Egypt is the first ever NFT treasure hunt that puts you in the arena.",
-      imgUrl: projImg3,
-    },
-  ];
-  const projects2 = [
-    {
-      title: "Kite-Fighters",
-      description:
-        "A crossover VR x NFT gaming experience featuring one of the world's most exciting & obscure sports. KITE FIGHTING",
-      imgUrl: projImg5,
-    },
-    {
-      title: "NATSUKI",
-      description: "Utilizing the NFT space to provide real world utility!",
-      imgUrl: projImg6,
-    },
-    {
-      title: "Teenage Innovators",
-      description:
-        "4444 Teen Entrepreneurs proving that they have earned their spot in the business world | Created by 15yo",
-      imgUrl: projImg7,
-    },
-    {
-      title: "Kite-Fighters / Mint",
-      description: "Mint platform for kite-fighters",
-      imgUrl: projImg8,
-    },
-  ];
-  const projects3 = [
-    {
-      title: "Meta-Land Society",
-      description:
-        "Creating a blue-chip metaverse ecosystem powered by an asset backed token.",
-      imgUrl: projImg4,
-    },
-    {
-      title: "Claim-surrender-game",
-      description: "Utilizing the NFT space to provide real world utility!",
-      imgUrl: projImg9,
-    },
-    {
-      title: "Delivery Dudes",
-      description: "Utilizing the NFT space to provide real world utility!",
-      imgUrl: projImg10,
-    },
-    {
-      title: "Bitcoin (BTC) Price Index Page",
-      description:
-        " A dynamic page displaying real-time BTC price indexes in USD, GBP, and EUR currencies. Plus an engaging page that showcases NFTs owned by connected user's wallet",
-      imgUrl: projImg11,
-    },
-  ];
+    const projects = [
+        {
+            title: "Househaeds",
+            description:
+                "The first interdimensional digital collectibles coming from the parallel world of Aeterna.",
+            imgUrl: projImg12,
+        },
+        {
+            title: "Meeps",
+            description:
+                "MEEPS is a 5,555 NFTs collection built using an ERC 721A contract.",
+            imgUrl: projImg1,
+        },
+        {
+            title: "Feellings",
+            description:
+                "Feellings is a Dapp that allows you to create and own NFTs.",
+            imgUrl: projImg2,
+        },
+        {
+            title: "Gods of Egypt",
+            description:
+                "The Gods of Egypt is the first ever NFT treasure hunt that puts you in the arena.",
+            imgUrl: projImg3,
+        },
+    ];
+    const projects2 = [
+        {
+            title: "Kite-Fighters",
+            description:
+                "A crossover VR x NFT gaming experience featuring one of the world's most exciting & obscure sports. KITE FIGHTING",
+            imgUrl: projImg5,
+        },
+        {
+            title: "NATSUKI",
+            description:
+                "Utilizing the NFT space to provide real world utility!",
+            imgUrl: projImg6,
+        },
+        {
+            title: "Teenage Innovators",
+            description:
+                "4444 Teen Entrepreneurs proving that they have earned their spot in the business world | Created by 15yo",
+            imgUrl: projImg7,
+        },
+        {
+            title: "Kite-Fighters / Mint",
+            description: "Mint platform for kite-fighters",
+            imgUrl: projImg8,
+        },
+    ];
+    const projects3 = [
+        {
+            title: "Meta-Land Society",
+            description:
+                "Creating a blue-chip metaverse ecosystem powered by an asset backed token.",
+            imgUrl: projImg4,
+        },
+        {
+            title: "Claim-surrender-game",
+            description:
+                "Utilizing the NFT space to provide real world utility!",
+            imgUrl: projImg9,
+        },
+        {
+            title: "Delivery Dudes",
+            description:
+                "Utilizing the NFT space to provide real world utility!",
+            imgUrl: projImg10,
+        },
+        {
+            title: "Bitcoin (BTC) Price Index Page",
+            description:
+                " A dynamic page displaying real-time BTC price indexes in USD, GBP, and EUR currencies. Plus an engaging page that showcases NFTs owned by connected user's wallet",
+            imgUrl: projImg11,
+        },
+    ];
 
-  return (
-    <section className="project" id="project">
-      <Container>
-        <Row>
-          <Col size={12}>
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
-                >
-                  <h2>Projects</h2>
-                  <p className="project-texts">
-                    "I've successfully completed a diverse range of projects as
-                    a professional frontend developer. Notably, I created a
-                    React-based workout application with an intuitive interface
-                    and integrated backend API, as well as an Angular-based
-                    e-commerce website that was responsive and easy to navigate.
-                    <br></br>I'm also experienced with smaller projects such as
-                    landing pages and marketing websites. My code is always
-                    clean, efficient, and maintainable."
-                  </p>
-                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                    <Nav
-                      variant="pills"
-                      className="nav-pills mb-5 justify-content-center align-items-center"
-                      id="pills-tab"
-                    >
-                      <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                      </Nav.Item>
-                    </Nav>
-                    <Tab.Content
-                      id="slideInUp"
-                      className={
-                        isVisible ? "animate__animated animate__slideInUp" : ""
-                      }
-                    >
-                      <Tab.Pane eventKey="first">
-                        <Row>
-                          {projects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
-                          })}
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="second">
-                        <Row>
-                          {projects2.map((project2, index) => {
-                            return <ProjectCard key={index} {...project2} />;
-                          })}
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                        <Row>
-                          {projects3.map((project3, index) => {
-                            return <ProjectCard key={index} {...project3} />;
-                          })}
-                        </Row>
-                      </Tab.Pane>
-                    </Tab.Content>
-                  </Tab.Container>
-                </div>
-              )}
-            </TrackVisibility>
-          </Col>
-        </Row>
-      </Container>
-      <img
-        className="background-image-right"
-        src={colorSharp2}
-        alt="background"
-      ></img>
-    </section>
-  );
+    return (
+        <section className="project" id="project">
+            <Container>
+                <Row>
+                    <Col size={12}>
+                        <TrackVisibility>
+                            {({ isVisible }) => (
+                                <div
+                                    className={
+                                        isVisible
+                                            ? "animate__animated animate__fadeIn"
+                                            : ""
+                                    }
+                                >
+                                    <h2>Projects</h2>
+                                    <p className="project-texts">
+                                        With a focus on project management, I've
+                                        overseen the successful development of
+                                        innovative software solutions,
+                                        streamlining processes, and enhancing
+                                        user experiences. <br />Notable achievements
+                                        include creating a React-based workout
+                                        application. Additionally, I've
+                                        executed smaller projects like landing
+                                        pages and marketing websites. <br />My
+                                        approach ensures that the code is always
+                                        clean, efficient, and maintainable in
+                                        every endeavor.
+                                    </p>
+                                    <Tab.Container
+                                        id="projects-tabs"
+                                        defaultActiveKey="first"
+                                    >
+                                        <Nav
+                                            variant="pills"
+                                            className="nav-pills mb-5 justify-content-center align-items-center"
+                                            id="pills-tab"
+                                        >
+                                            <Nav.Item>
+                                                <Nav.Link eventKey="first">
+                                                    Tab 1
+                                                </Nav.Link>
+                                            </Nav.Item>
+                                            <Nav.Item>
+                                                <Nav.Link eventKey="second">
+                                                    Tab 2
+                                                </Nav.Link>
+                                            </Nav.Item>
+                                            <Nav.Item>
+                                                <Nav.Link eventKey="third">
+                                                    Tab 3
+                                                </Nav.Link>
+                                            </Nav.Item>
+                                        </Nav>
+                                        <Tab.Content
+                                            id="slideInUp"
+                                            className={
+                                                isVisible
+                                                    ? "animate__animated animate__slideInUp"
+                                                    : ""
+                                            }
+                                        >
+                                            <Tab.Pane eventKey="first">
+                                                <Row>
+                                                    {projects.map(
+                                                        (project, index) => {
+                                                            return (
+                                                                <ProjectCard
+                                                                    key={index}
+                                                                    {...project}
+                                                                />
+                                                            );
+                                                        }
+                                                    )}
+                                                </Row>
+                                            </Tab.Pane>
+                                            <Tab.Pane eventKey="second">
+                                                <Row>
+                                                    {projects2.map(
+                                                        (project2, index) => {
+                                                            return (
+                                                                <ProjectCard
+                                                                    key={index}
+                                                                    {...project2}
+                                                                />
+                                                            );
+                                                        }
+                                                    )}
+                                                </Row>
+                                            </Tab.Pane>
+                                            <Tab.Pane eventKey="third">
+                                                <Row>
+                                                    {projects3.map(
+                                                        (project3, index) => {
+                                                            return (
+                                                                <ProjectCard
+                                                                    key={index}
+                                                                    {...project3}
+                                                                />
+                                                            );
+                                                        }
+                                                    )}
+                                                </Row>
+                                            </Tab.Pane>
+                                        </Tab.Content>
+                                    </Tab.Container>
+                                </div>
+                            )}
+                        </TrackVisibility>
+                    </Col>
+                </Row>
+            </Container>
+            <img
+                className="background-image-right"
+                src={colorSharp2}
+                alt="background"
+            ></img>
+        </section>
+    );
 };
